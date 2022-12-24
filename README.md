@@ -60,3 +60,12 @@ Udpate the backend and frontend queries to define the kind of prompt you want to
 ## Publishing the Project
 
 If you want to go live and publish the project, you will need a live domain and hosting. You can run NPM run build, and this will build the create react app the the build folder, which the web server will use as reference for the project online.
+
+## First Experiment WIP
+
+#chatGPT "what's one of the hardest concepts for a human mind to visualize? Write a
+prompt for an Al image generator to try and create that image."
+
+Here's what it came up with, and here's how MidJourney visualized it:
+
+#aiart #midjourney
