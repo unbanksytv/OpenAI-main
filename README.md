@@ -68,4 +68,6 @@ prompt for an Al image generator to try and create that image."
 
 Here's what it came up with, and here's how MidJourney visualized it:
 
+"Produce an art work from a text input. Use it to create your own unique piece of generative art to either just preview it or mint it as an NFT and store it on the Ethereum blockchain forever."
+
 #aiart #midjourney
