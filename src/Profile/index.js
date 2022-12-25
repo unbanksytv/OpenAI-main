@@ -109,7 +109,7 @@ class Body extends Component {
 			>
 					<Route exact path="/my-profile">
 						<Helmet>
-							<title>{`My Profile - OpenAI Template`}</title>
+							<title>{`My Profile - OpenAI`}</title>
 						</Helmet>
 						
 				</Route>
@@ -137,7 +137,7 @@ class Body extends Component {
 							<Tool
 								Icon={ChatAltIcon}
 								title={"Feedback"} 
-								desc={"Provide comments on your experience"} 
+								desc={"Provide comments on your experience anon"} 
 								to={"/my-profile/feedback"}
 								fromColor="gray-400"
 								toColor="gray-400"
