@@ -92,7 +92,7 @@ class Login extends Component {
 	return (
 		<>
 			<Helmet>
-				<title>{`Login - OpenAI Template`}</title>
+				<title>{`Login - OpenAI`}</title>
 			</Helmet>
 			<div className="container mx-auto lg:px-4 py-4 min-h-screen flex flex-col md:items-center md:justify-center">
 
@@ -147,7 +147,7 @@ class Login extends Component {
 				{this.errorMessage}
 				</div> : null}
 				</div>
-				<a href={`https://www.open.ai/`} className="block text-center bg-gray-100 text-gray-500 text-sm p-3 rounded-b-lg hover:bg-gray-200 cursor-pointer">
+				<a href={`https://www.livethelife.tv/`} className="block text-center bg-gray-100 text-gray-500 text-sm p-3 rounded-b-lg hover:bg-gray-200 cursor-pointer">
 					Back to landing page
 				</a>
 			</div>
@@ -186,7 +186,7 @@ class Login extends Component {
 						signUp Google
 						</div>
 						 */}
-						<a href={`https://www.openaitemplate.ai/contact`} className="mt-4 text-gray-400 text-sm">Forgot your password?</a>
+						<a href={`https://www.livethelife.tv/contact`} className="mt-4 text-gray-400 text-sm">Forgot your password?</a>
 					</div>
                     </div>
                   </form>
@@ -207,7 +207,7 @@ class Login extends Component {
                     	Sign Up
                     </div>
 					<p className="text-lg text-gray-500">
-					Create your account
+					Create your account anon
 					</p>
 					<div className="md:flex">
 						<div className="flex flex-col min-w-0 md:pr-2 flex-1">
@@ -230,7 +230,7 @@ class Login extends Component {
 					
 					<div className="flex flex-col">
 						<button type="submit"  className="hover:bg-green-600 bg-green-500 font-medium rounded-lg text-lg px-4 py-2 bg-gray-200 text-white mt-4 border border-gray-300 inline-block" >
-							Sign Up
+							Sign Up Ser
 						</button>
 					</div>
                     </div>
