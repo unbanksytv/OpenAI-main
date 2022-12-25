@@ -42,7 +42,7 @@ const obj = {
 				min: 5,
 				required: true,
 				error: "",
-				example: "Getting Started With Storybook Without a JavaScript Framework",
+				example: "Getting Started With Nextjs & TailwindCSS",
 			},
 			{ 
 				title: "Audience", 
@@ -84,7 +84,7 @@ const obj = {
 				// min: 4,
 				// required: true,
 				error: "",
-				example: "Coding, development, html, css, js",
+				example: "Coding, development, nextjs, tailwindcss, js",
 			},
 		],
 		example: {

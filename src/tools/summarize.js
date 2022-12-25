@@ -6,7 +6,7 @@ import {
 const obj = {
 
 	title: "Summarize Points",
-	desc: "Analyze your text or documents and convey the important concepts in bullet form.",
+	desc: "Analyze your text and convey the important concepts in bullet form.",
 	category: "Personal",
 	Icon: ViewListIcon,
 	// tags: [],
