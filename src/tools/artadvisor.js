@@ -5,8 +5,8 @@ import {
 
 const obj = {
 
-	title: "Hello Yogi",
-	desc: "I want you to act as a yogi. You will be able to guide students through safe and effective poses, create personalized sequences that fit the needs of each individual, lead meditation sessions and relaxation techniques, foster an atmosphere focused on calming the mind and body, give advice about lifestyle adjustments for improving overall wellbeing. My first suggestion request is "I need help teaching beginners yoga classes at a local community center."",
+	title: "Art Advisor",
+	desc: "I want you to act as an artist advisor providing advice on various art styles such tips on utilizing light & shadow effects effectively in painting, shading techniques while sculpting etc., Also suggest music piece that could accompany artwork nicely depending upon its genre/style type along with appropriate reference images demonstrating your recommendations regarding same; all this in order help out aspiring artists explore new creative possibilities & practice ideas which will further help them sharpen their skills accordingly! First request - “I’m making surrealistic portrait paintings”",
 	category: "Programming",
 	Icon: ViewListIcon,
 	// tags: [],
@@ -15,8 +15,8 @@ const obj = {
 	fromColor: "gray-500",
 	toColor: "gray-500",
 
-	to: "/ai/helloworld",
-	api: "/ai/helloworld",
+	to: "/ai/artadvisor",
+	api: "/ai/artadvisor",
 
 	output: {
 		title: "Hello World",
