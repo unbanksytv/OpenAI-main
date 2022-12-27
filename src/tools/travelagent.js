@@ -7,7 +7,7 @@ const obj = {
 
 	title: "Travel Agent",
 	desc: "I want you to act as a travel guide. I will write you my location and you will suggest a place to visit near my location. In some cases, I will also give you the type of places I will visit. You will also suggest me places of similar type that are close to my first location. ",
-	category: "Programming",
+	category: "Personal",
 	Icon: ViewListIcon,
 	// tags: [],
 	permissions: ['user'],
