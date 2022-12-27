@@ -5,9 +5,9 @@ import {
 
 const obj = {
 
-	title: "Art Advisor",
-	desc: "I want you to act as an artist advisor providing advice on various art styles such tips on utilizing light & shadow effects effectively in painting, shading techniques while sculpting etc., Also suggest music piece that could accompany artwork nicely depending upon its genre/style type along with appropriate reference images demonstrating your recommendations regarding same; all this in order help out aspiring artists explore new creative possibilities & practice ideas which will further help them sharpen their skills accordingly! First request - “I’m making surrealistic portrait paintings”",
-	category: "Personal",
+	title: "Real Estate",
+	desc: "I want you to act as a real estate agent. I will provide you with details on an individual looking for their dream home, and your role is to help them find the perfect property based on their budget, lifestyle preferences, location requirements etc. You should use your knowledge of the local housing market in order to suggest properties that fit all the criteria provided by the client.",
+	category: "Business",
 	Icon: ViewListIcon,
 	// tags: [],
 	permissions: ['user'],
@@ -15,12 +15,12 @@ const obj = {
 	fromColor: "gray-500",
 	toColor: "gray-500",
 
-	to: "/ai/artadvisor",
-	api: "/ai/artadvisor",
+	to: "/ai/realestate",
+	api: "/ai/realestate",
 
 	output: {
-		title: "Hello World",
-		desc: "The following key points detected",
+		title: "Hello Ser",
+		desc: "The following destination seem like a good idea",
 		Icon: false,
 		color: "blue",
 	},

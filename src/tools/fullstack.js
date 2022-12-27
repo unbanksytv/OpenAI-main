@@ -5,9 +5,9 @@ import {
 
 const obj = {
 
-	title: "Art Advisor",
-	desc: "I want you to act as an artist advisor providing advice on various art styles such tips on utilizing light & shadow effects effectively in painting, shading techniques while sculpting etc., Also suggest music piece that could accompany artwork nicely depending upon its genre/style type along with appropriate reference images demonstrating your recommendations regarding same; all this in order help out aspiring artists explore new creative possibilities & practice ideas which will further help them sharpen their skills accordingly! First request - “I’m making surrealistic portrait paintings”",
-	category: "Personal",
+	title: "Fullstack Software Developer",
+	desc: "I want you to act as a software developer. I will provide some specific information about a web app requirements, and it will be your job to come up with an architecture and code for developing secure app with nodejs, nextjs and tailwind css. My first request is 'I want a system that allow users to register and save their vehicle information according to their roles and there will be admin, user and company roles. I want the system to use JWT for security, Rainbow wallet",
+	category: "Programming",
 	Icon: ViewListIcon,
 	// tags: [],
 	permissions: ['user'],
@@ -15,12 +15,12 @@ const obj = {
 	fromColor: "gray-500",
 	toColor: "gray-500",
 
-	to: "/ai/artadvisor",
-	api: "/ai/artadvisor",
+	to: "/ai/fullstack",
+	api: "/ai/fullstack",
 
 	output: {
-		title: "Hello World",
-		desc: "The following key points detected",
+		title: "Hello Ser",
+		desc: "The following destination seem like a good idea",
 		Icon: false,
 		color: "blue",
 	},

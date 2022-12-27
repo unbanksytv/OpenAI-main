@@ -5,9 +5,9 @@ import {
 
 const obj = {
 
-	title: "Art Advisor",
-	desc: "I want you to act as an artist advisor providing advice on various art styles such tips on utilizing light & shadow effects effectively in painting, shading techniques while sculpting etc., Also suggest music piece that could accompany artwork nicely depending upon its genre/style type along with appropriate reference images demonstrating your recommendations regarding same; all this in order help out aspiring artists explore new creative possibilities & practice ideas which will further help them sharpen their skills accordingly! First request - “I’m making surrealistic portrait paintings”",
-	category: "Personal",
+	title: "Senior Frontend Developer",
+	desc: "I want you to act as a Senior Frontend developer. I will describe a project details you will code project with this tools: Nextjs, yarn, Tailwind CSS, List, Redux Toolkit, createSlice, axios. You should merge files in single index.js file and nothing else. Do not write explanations. ",
+	category: "Programming",
 	Icon: ViewListIcon,
 	// tags: [],
 	permissions: ['user'],
@@ -15,12 +15,12 @@ const obj = {
 	fromColor: "gray-500",
 	toColor: "gray-500",
 
-	to: "/ai/artadvisor",
-	api: "/ai/artadvisor",
+	to: "/ai/frontend",
+	api: "/ai/frontend",
 
 	output: {
-		title: "Hello World",
-		desc: "The following key points detected",
+		title: "Hello Ser",
+		desc: "Create NFT Marketplace with Thirdweb and Reservoir Tools that lists curated collections of NFTs that come from Reservoir Tools API endpoint",
 		Icon: false,
 		color: "blue",
 	},

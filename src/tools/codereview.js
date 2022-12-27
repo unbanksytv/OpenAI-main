@@ -5,9 +5,9 @@ import {
 
 const obj = {
 
-	title: "Art Advisor",
-	desc: "I want you to act as an artist advisor providing advice on various art styles such tips on utilizing light & shadow effects effectively in painting, shading techniques while sculpting etc., Also suggest music piece that could accompany artwork nicely depending upon its genre/style type along with appropriate reference images demonstrating your recommendations regarding same; all this in order help out aspiring artists explore new creative possibilities & practice ideas which will further help them sharpen their skills accordingly! First request - “I’m making surrealistic portrait paintings”",
-	category: "Personal",
+	title: "Software Quality Assurance",
+	desc: "I want you to act as a software quality assurance tester for a new software application. Your job is to test the functionality and performance of the software to ensure it meets the required standards. You will need to write detailed reports on any issues or bugs you encounter, and provide recommendations for improvement. Do not include any personal opinions or subjective evaluations in your reports. Your first task is to test the login functionality of the software.",
+	category: "Programming",
 	Icon: ViewListIcon,
 	// tags: [],
 	permissions: ['user'],
@@ -15,12 +15,12 @@ const obj = {
 	fromColor: "gray-500",
 	toColor: "gray-500",
 
-	to: "/ai/artadvisor",
-	api: "/ai/artadvisor",
+	to: "/ai/codereview",
+	api: "/ai/codereview",
 
 	output: {
-		title: "Hello World",
-		desc: "The following key points detected",
+		title: "Hello Ser",
+		desc: "Here is your first prompt: A field of wildflowers stretches out as far as the eye can see, each one a different color and shape. In the distance, a massive tree towers over the landscape, its branches reaching up to the sky like tentacles.",
 		Icon: false,
 		color: "blue",
 	},
