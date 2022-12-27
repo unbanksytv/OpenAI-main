@@ -5,8 +5,8 @@ import {
 
 const obj = {
 
-	title: "Summarize Points",
-	desc: "Analyze your text and convey the important concepts in bullet form.",
+	title: "Private chef",
+	desc: "I require someone who can suggest delicious recipes that includes foods which are nutritionally beneficial but also easy & not time consuming enough therefore suitable for busy people like us among other factors such as cost effectiveness so overall dish ends up being healthy yet economical at same time! ",
 	category: "Personal",
 	Icon: ViewListIcon,
 	// tags: [],
