@@ -5,7 +5,7 @@ const cors = require('cors')
 
 require('dotenv-flow').config();
 
-require('./routes/middlewares/mongo');
+require('./api/middlewares/mongo');
 
 const app = express()
 const port = 3080
@@ -24,7 +24,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 //form-urlencoded
 app.set('jwt', "ebeb1a5ada5cf38bfc2b49ed5b3100e0");
 
-app.use('/api', require('./routes/api'))
+app.use('/api', require('./api/index'))
 
 // Default Index Page
 app.use(express.static(__dirname + '/build'));
