@@ -26,8 +26,8 @@ const obj = {
 	},
 
 	prompts: [{
-		title:"Social Media Influencer",
-		desc: "Write a short few words about the ad",
+		title:"Investment Manager",
+		desc: "Write a short few words about the area where you would like to invest",
 		// n: 1,
 		prompts: [
 			{ 
