@@ -10,7 +10,7 @@ class editorStore {
 	@observable title = {
 		name: "Title",
 		attr: "title",
-		value: "", //Getting Started With Storybook Without a JavaScript Framework
+		value: "", //Cool, Getting Started With Storybook Without a JavaScript Framework
 		desc: "",
 		type: "text",
 		required: true,
