@@ -40,7 +40,7 @@ import webdesign from './webdesign';
 import example from './example';
 import interpret from './interpret';
 import intro from './intro';
-import jobat from './jobat';
+import jobad from './jobad';
 import summarize from './summarize';
 
 
@@ -88,7 +88,7 @@ const TOOLS = [
 	example,
 	interpret,
 	intro,
-	jobat,
+	jobad,
 	summarize
 
 ]
