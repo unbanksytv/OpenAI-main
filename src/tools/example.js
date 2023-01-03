@@ -7,7 +7,7 @@ const obj = {
 
 	title: "Curator",
 	desc: "I want you to act as a digital art gallery guide. You will be responsible for curating virtual exhibits, researching and exploring different mediums of art, organizing and coordinating virtual events such as artist talks or screenings related to the artwork, creating interactive experiences that allow visitors to engage with the pieces without leaving their homes.",
-	category: "Programming",
+	category: "Content",
 	Icon: ViewListIcon,
 	// tags: [],
 	permissions: ['user'],
@@ -27,13 +27,13 @@ const obj = {
 
 	prompts: [{
 		title:"Entry Text",
-		desc: "A sentence or paragraph you wish to understand in bullet point form.",
+		desc: "Tell us where you want to live the life",
 		// n: 1,
 		prompts: [{ 
 				title: "Content", 
 				attr: "content",  
 				value: "", 
-				placeholder: "When doing an your taxes, it's important to...", 
+				placeholder: "Let's Gooo", 
 				label: "",
 				type: "textarea",
 				maxLength: 600,
@@ -41,15 +41,15 @@ const obj = {
 				min: 3,
 				required: true,
 				error: "",
-				example: "Hello World ",
+				example: "Aloha ",
 			},
 		],
 		example: {
-			output: "Hello World Hello World Hello World Hello World Hello World Hello World Hello World ",
+			output: "Aloha Aloha Aloha ",
 			// outputs: [
-			// 	"The sun is very old, over 4.5 billion years",
-			// 	"At 10,000 degrees, sun is also very hot",
-			// 	"Gasses called coronal mass ejections erupt from the sun",
+			// 	"It's Time To Live The Good Life.",
+			// 	"We are keen to explore South Africa.",
+			// 	"NYC may be the only city that never sleeps.",
 			// ],
 			// Icon: RefreshIcon,
 			color: "blue",

@@ -61,7 +61,7 @@ class Referral extends Component {
                           type="text"
 						  value={this.value}
                           className="focus:ring-indigo-500 border focus:border-indigo-500 flex-1 rounded border-gray-300 py-3 px-6 flex-1 bg-gray-100 hover:bg-gray-200"
-                          placeholder="www.example.com"
+                          placeholder="www.livethelife.tv"
 						  onChange={()=>{}}
 						  onClick={()=>{
 							document.getElementById("referral").select();  
