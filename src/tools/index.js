@@ -38,6 +38,10 @@ import travelagent from './travelagent';
 import ux from './ux';
 import webdesign from './webdesign';
 import example from './example';
+import interpret from './interpret';
+import intro from './intro';
+import jobat from './jobat';
+import summarize from './summarize';
 
 
 const TOOLS = [
@@ -81,7 +85,11 @@ const TOOLS = [
 	travelagent,
 	ux,
 	webdesign,
-	example
+	example,
+	interpret,
+	intro,
+	jobat,
+	summarize
 
 ]
 
