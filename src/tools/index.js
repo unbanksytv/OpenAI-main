@@ -37,6 +37,7 @@ import trainer from './trainer';
 import travelagent from './travelagent';
 import ux from './ux';
 import webdesign from './webdesign';
+import example from './example';
 
 
 const TOOLS = [
@@ -79,7 +80,8 @@ const TOOLS = [
 	trainer, 
 	travelagent,
 	ux,
-	webdesign
+	webdesign,
+	example
 
 ]
 
