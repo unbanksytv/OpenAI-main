@@ -1,3 +1,5 @@
+
+
 # OpenAI Template
 This project is a starter kit for using OpenAI and its API layer. It is baked in with Authentication, Session Management, Token Tracking, as well as Billing (currently disabled). This MVP will answer specific questions or simplify complicated topics, all with an added bonus - No ads! ChatGPT has opened up a ton of unknowns. But 1 thing is for certain. Those who understand how to enter the right prompts will get the most out of this groundbreaking tech.
 
