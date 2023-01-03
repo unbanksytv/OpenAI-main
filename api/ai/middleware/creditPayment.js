@@ -45,7 +45,7 @@ const creditPayment = async (req, res, next) => {
 	req.locals.price = price
 	req.locals.credits = credits
 
-	// Now updated the suer
+	// Now updated the user
 
 	let user = await User.findOne({ _id: req.user._id })
 
