@@ -1,3 +1,5 @@
+
+
 # OpenAI Template
 This project is a starter kit for using OpenAI and its API layer. It is baked in with Authentication, Session Management, Token Tracking, as well as Billing (currently disabled). This MVP will answer specific questions or simplify complicated topics, all with an added bonus - No ads! ChatGPT has opened up a ton of unknowns. But 1 thing is for certain. Those who understand how to enter the right prompts will get the most out of this groundbreaking tech.
 
@@ -63,8 +65,8 @@ If you want to go live and publish the project, you will need a live domain and 
 
 ## First Experiment WIP
 
-#chatGPT "what's one of the hardest concepts for a human mind to visualize? Write a
-prompt for an Al image generator to try and create that image."
+#chatGPT A "what's one of the hardest concepts for a human mind to visualize? Write a
+prompt for an Al image generator to try and create that image." Q "Imagine a vast, endless expanse of shimmering stars, stretching out in every direction as far as the eye can see. Each star is a different color and size, twinkling and pulsing with energy. In the center of this cosmic expanse, a glowing portal beckons, inviting you to step through and explore the infinite possibilities that lie beyond."
 
 Here's what it came up with, and here's how MidJourney visualized it:
 
