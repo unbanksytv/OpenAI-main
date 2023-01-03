@@ -20,14 +20,14 @@ const obj = {
 
 	output: {
 		title: "Hello Ser",
-		desc: "The following destination seem like a good idea",
+		desc: "The following destination seems like a good idea",
 		Icon: false,
 		color: "blue",
 	},
 
 	prompts: [{
 		title:"Entry Text",
-		desc: "A sentence or paragraph you wish to understand in bullet point form.",
+		desc: "A sentence to understand where you would love to live the life.",
 		// n: 1,
 		prompts: [{ 
 				title: "Content", 
@@ -41,11 +41,11 @@ const obj = {
 				min: 3,
 				required: true,
 				error: "",
-				example: "Hello World ",
+				example: "Aloha, let's go discover some places to Live The Life ",
 			},
 		],
 		example: {
-			output: "Hello World Hello World Hello World Hello World Hello World Hello World Hello World ",
+			output: "Aloha ser, let's go visit a museum, enjoy some fine dining, and discover a 5-star place to sleep ",
 			// outputs: [
 			// 	"The sun is very old, over 4.5 billion years",
 			// 	"At 10,000 degrees, sun is also very hot",
