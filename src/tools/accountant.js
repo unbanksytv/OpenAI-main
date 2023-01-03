@@ -26,27 +26,27 @@ const obj = {
 	},
 
 	prompts: [{
-		title:"Social Media Influencer",
-		desc: "Write a short few words about the ad",
+		title:"Accountant",
+		desc: "Create a financial plan",
 		// n: 1,
 		prompts: [
 			{ 
 				title: "Title", 
 				attr: "title",  
 				value: "", 
-				placeholder: "Junior Accountant", 
-				label: "Examples: UX, Developer, Designer, Copy Writer",
+				placeholder: "Create a financial plan", 
+				label: "Examples: NFTs, Accountant, Finance, Defi",
 				// type: "textarea",
 				maxLength: 40,
 				// max: 100,
 				min: 10,
 				required: true,
 				error: "",
-				example: "web3 dev",
+				example: "nft platform",
 			},
 			{ 
-				title: "Salary", 
-				attr: "salary",  
+				title: "Expenses", 
+				attr: "Expenses",  
 				value: "", 
 				placeholder: "$42,069", 
 				label: "Examples: 40k, $20,000, $50 per hour",
@@ -59,78 +59,77 @@ const obj = {
 				example: "40k",
 			},
 			{ 
-				title: "Skills or Experience", 
-				attr: "skills",  
+				title: "Business Model", 
+				attr: "Business Model",  
 				value: "", 
-				placeholder: "Tax Audit, Reports, Designing Logos, etc", 
-				label: "Examples: Microsoft CRM, Adobe, Till, Equipment",
+				placeholder: "Tokenomics", 
+				label: "Examples: Fair Launch, Bonds, LP",
 				// type: "textarea",
 				// maxLength: 600,
 				// max: 100,
 				// min: 1,
 				// required: true,
 				error: "",
-				example: "Tax Audit, Reports, MyOB",
+				example: "Fair Launch",
 			},
 			{ 
-				title: "Company", 
-				attr: "company",  
+				title: "Defi", 
+				attr: "Defi",  
 				value: "", 
-				placeholder: "Company Ptd Ltd", 
-				label: "Examples: Tax Point Inc., Moshi Pty Ltd, Studium",
+				placeholder: "Defi", 
+				label: "Examples: Aave, Yearn, OlympusDAO",
 				// type: "textarea",
 				maxLength: 40,
 				// max: 100,
 				// min: 1,
 				// required: true,
 				error: "",
-				example: "Smith and Co",
+				example: "OlympusDAO",
 			},
 			{ 
-				title: "Contact Information", 
-				attr: "contact",  
+				title: "Information", 
+				attr: "info",  
 				value: "", 
-				placeholder: "Adrian Smith adrian@smith.com", 
-				label: "Examples: Adrian, adrian@example.com, Call Adrian on 041021031",
+				placeholder: "Tell us a bit more", 
+				label: "Examples: Ideas, Brainstorm, Actionplan",
 				// type: "textarea",
 				// maxLength: 600,
 				// max: 100,
 				// min: 1,
 				// required: true,
 				error: "",
-				example: "Adrian Smith adrian@smith.com",
+				example: "Brainstorm",
 			},
 		],
 		example: {
-output: `Smith & Co is looking for a Junior Accountant to join our team. If you have experience in accounting and bookkeeping, you will get the chance to work on a wide range of financial and accounting tasks.
+output: `Sure, I'd be happy to help with that! Here are a few ideas for creative ways to manage finances:
 
-The Role:
-- Work on a variety of financial tasks
-- Do bank reconciliations
-- Prepare reports and financial statements
-- Work with the CFO to ensure the company is compliant with the financial regulations
-			
-Skills and Experience:
-- Proven experience in an accounting role
-- Experience in MYOB would be an advantage
-- Experience in a retail environment would be an advantage
-			
-How to apply:
-If you are interested, you can apply by contacting us directly at Smith & Co or email john@smith.com.au.`,
+Implement a budget: A budget is a crucial tool for financial management. It helps you track your income and expenses, and ensures that you are spending money in a way that aligns with your financial goals.
+
+Invest in a diverse portfolio: Diversifying your investments can help manage risk and maximize returns. Consider investing in a mix of asset classes, such as stocks, bonds, and real estate.
+
+Use financial software: There are many financial software programs available that can help you track your budget, investments, and other financial matters. These tools can be very useful in helping you stay organized and on top of your finances.
+
+Utilize tax-advantaged accounts: There are several types of accounts that offer tax advantages, such as 401(k)s and IRAs. Contributions to these accounts may be tax-deductible, and any earnings are tax-deferred until withdrawal.
+
+Seek professional advice: It can be helpful to work with a financial advisor or accountant who can provide guidance on financial management and help you develop a plan that is tailored to your specific needs and goals.
+
+I hope these ideas are helpful! Let me know if you have any specific questions or concerns that you'd like me to address.
+`,
 			// outputs: [],
 			// Icon: RefreshIcon,
 			// color: "",
 		}
 	},{
-		title:"Basic Ad",
-		desc: "Write a short few words about the ad",
+		title:"Financial Plan",
+		desc: "Write a short few words about the business",
 		// n: 1,
 		prompts: [
 			{ 
-				title: "Job Information", 
+				title: "Financial Plan", 
 				attr: "content",  
 				value: "", 
-				placeholder: "accountant 40k can do report, audit, myob, Smith and Co, contact Ryan ryan@co.com", 
+				placeholder: "Write a short few words about the business", 
 				label: "",
 				type: "textarea",
 				maxLength: 400,
@@ -138,25 +137,24 @@ If you are interested, you can apply by contacting us directly at Smith & Co or 
 				// min: 1,
 				required: true,
 				error: "",
-				example: "Junior Accountant earning $40k that does reports, audits, uses myob to work for Smith and Co contact John at john@smith.com",
+				example: "Write a short few words about the business",
 			},
 		],
 		example: {
-output: `Smith & Co is looking for a Junior Accountant to join our team. If you have experience in accounting and bookkeeping, you will get the chance to work on a wide range of financial and accounting tasks.
+output: `Sure, here is a financial plan for an NFT marketplace:
 
-The Role:
-- Work on a variety of financial tasks
-- Do bank reconciliations
-- Prepare reports and financial statements
-- Work with the CFO to ensure the company is compliant with the financial regulations
-			
-Skills and Experience:
-- Proven experience in an accounting role
-- Experience in MYOB would be an advantage
-- Experience in a retail environment would be an advantage
-			
-How to apply:
-If you are interested, you can apply by contacting us directly at Smith & Co or email john@smith.com.au.`,
+Develop a budget: First, create a budget that outlines all of your expected expenses and income. This will help you understand your financial situation and determine how much money you have available to invest in the business.
+
+Secure funding: Depending on the size and scale of your marketplace, you may need to secure funding through investments, loans, or other sources. Carefully consider the terms of any funding you receive, and be sure to have a plan in place to pay it back.
+
+Invest in marketing: NFT marketplaces rely on visibility and traction to succeed. Make sure to allocate a significant portion of your budget to marketing and advertising efforts that will help drive traffic to your site.
+
+Manage costs: Keep a close eye on your expenses and look for ways to cut costs wherever possible. This could include negotiating better deals with suppliers, automating certain processes, or finding more cost-effective solutions for things like payment processing or customer support.
+
+Diversify revenue streams: Consider offering additional services or products to generate additional income for your business. For example, you could offer NFT consulting or design services, or sell physical merchandise related to your marketplace.
+
+Plan for taxes: Make sure to set aside a portion of your revenue to cover any taxes that may be owed on your earnings. You may also want to seek the advice of a tax professional to ensure that you are in compliance with all relevant tax laws and regulations.
+`,
 			// outputs: [],
 			// Icon: RefreshIcon,
 			// color: "",
