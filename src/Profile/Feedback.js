@@ -113,7 +113,7 @@ class Referral extends Component {
 						</Col>
 						<Col span="6">
 							<Output 
-                                    title={`EnhanceAI.ai`}
+                                    title={`LiveTheLife.TV`}
                                     desc={`Feedback Response`}
 
                                     Icon={Logo}
