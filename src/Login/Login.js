@@ -98,8 +98,8 @@ class Login extends Component {
 
 				<div className="text-center mb-6">
 					<Logo />
-					<div className="text-3xl md:text-5xl relative font-medium text-transparent bg-clip-text bg-gradient-to-r from-gray-700 to-gray-600 mb-4">OpenAI<span className="font-normal "> Template</span>
-						<div className="absolute top-0 ml-3 left-full bg-gradient-to-r from-gray-500 to-gray-500 text-white text-sm px-2 py-0.5 hidden md:inline-block rounded-md font-normal ">gpt3</div>
+					<div className="text-3xl md:text-5xl relative font-medium text-transparent bg-clip-text bg-gradient-to-r from-gray-700 to-gray-600 mb-4">OpenAI<span className="font-normal "> Magic</span>
+						<div className="absolute top-0 ml-3 left-full bg-gradient-to-r from-gray-500 to-gray-500 text-white text-sm px-2 py-0.5 hidden md:inline-block rounded-md font-normal ">gpt33</div>
 					</div>
 				</div>
 			<div className={`min-w-full md:min-w-0 bg-white rounded-xl shadow-xl transform transition-all  transition shadow-md hover:shadow-2xl focus:shadow-2xl w-1/2`}>
@@ -148,7 +148,7 @@ class Login extends Component {
 				</div> : null}
 				</div>
 				<a href={`https://www.livethelife.tv/`} className="block text-center bg-gray-100 text-gray-500 text-sm p-3 rounded-b-lg hover:bg-gray-200 cursor-pointer">
-					Back to landing page
+					Back to the LTL homepage
 				</a>
 			</div>
 		</div>
