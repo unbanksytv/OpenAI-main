@@ -5,7 +5,7 @@ import {
 
 const obj = {
 
-	title: "Social Media",
+	title: "Intro",
 	desc: "I want you to act as a social media influencer. You will create content for various platforms such as Instagram, Twitter or Youtube",
 	category: "Content",
 	Icon: MenuAlt2Icon,
@@ -42,13 +42,13 @@ const obj = {
 				min: 5,
 				required: true,
 				error: "",
-				example: "Getting Started With Nextjs & TailwindCSS",
+				example: "The NFT Photography World",
 			},
 			{ 
 				title: "Audience", 
 				attr: "audience",  
 				value: "", 
-				placeholder: "Technology, development, etc", 
+				placeholder: "Collectors, artists, etc", 
 				label: "Who the main group are you are writing for",
 				// type: "textarea",
 				maxLength: 50,
@@ -56,7 +56,7 @@ const obj = {
 				// min: 5,
 				// required: true,
 				error: "",
-				example: "Technology, development",
+				example: "Collectors, artists",
 			},
 			{ 
 				title: "Description", 
