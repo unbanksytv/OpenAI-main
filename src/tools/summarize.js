@@ -5,9 +5,9 @@ import {
 
 const obj = {
 
-	title: "Private chef",
-	desc: "I require someone who can suggest delicious recipes that includes foods which are nutritionally beneficial but also easy & not time consuming enough therefore suitable for busy people like us among other factors such as cost effectiveness so overall dish ends up being healthy yet economical at same time! ",
-	category: "Personal",
+	title: "Summarize",
+	desc: "Rewrite this for brevity ",
+	category: "Content",
 	Icon: ViewListIcon,
 	// tags: [],
 	permissions: ['user'],
@@ -20,7 +20,7 @@ const obj = {
 
 	output: {
 		title: "Summarized Points",
-		desc: "The following key points detected",
+		desc: "The following key points stand out",
 		Icon: false,
 		color: "blue",
 	},
@@ -33,7 +33,7 @@ const obj = {
 				title: "Content", 
 				attr: "content",  
 				value: "", 
-				placeholder: "When doing an your taxes, it's important to...", 
+				placeholder: "Monthly curated drops from award-winning and relevant photographers...", 
 				label: "",
 				type: "textarea",
 				maxLength: 600,
@@ -41,15 +41,15 @@ const obj = {
 				min: 3,
 				required: true,
 				error: "",
-				example: "The Sun is over 4.5 billion years old and has a temperature of around 10,000 degrees Fahrenheit. The Sun's light reaches the Earth in eight minutes. Coronal mass ejections are gases on the Sun's surface erupt, shooting far out into space.",
+				example: "Purchase a mint pass, then come back to this site to mint the collection. Minting is not yet open!",
 			},
 		],
 		example: {
 			// output: "",
 			outputs: [
-				"The sun is very old, over 4.5 billion years",
-				"At 10,000 degrees, sun is also very hot",
-				"Gasses called coronal mass ejections erupt from the sun",
+				"Purchase a mint pass",
+				"Mint an NFT from the new collection",
+				"Don't hold your breath, minting not open yet.",
 			],
 			// Icon: RefreshIcon,
 			color: "blue",

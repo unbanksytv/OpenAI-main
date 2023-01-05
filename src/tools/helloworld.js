@@ -45,7 +45,7 @@ const obj = {
 			},
 		],
 		example: {
-			output: "Hello World Hello World Hello World Hello World Hello World Hello World Hello World ",
+			output: "Aloha ",
 			// outputs: [
 			// 	"Let's have a casual chat about the meaning of life...",
 			// ],
