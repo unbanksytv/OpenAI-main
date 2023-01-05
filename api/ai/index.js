@@ -20,7 +20,7 @@ app.use('/', require('./writing/intro'));
 app.use('/', require('./jobad'));
 app.use('/', require('./helloworld'));
 app.use('/', require('./example'));
-app.use('/', require('./travelagent'));
+app.use('/', require('./writing/artguide'));
 
 app.use('/', contentFilterCheck); 
 app.use('/', creditPayment); 
