@@ -89,7 +89,7 @@ class SidebarCompontent extends Component {
 													<div className="text-4xl relative font-medium text-transparent bg-clip-text bg-gradient-to-r from-gray-700 to-gray-600 inline-block">OpenAI<span className="font-normal "> Magic</span> 
 														<div className="absolute top-0 ml-3 left-full bg-gradient-to-br from-gray-500 to-gray-500 text-white text-sm px-2 py-0.5 rounded-md font-normal hidden md:flex">gpt33</div>
 													</div>
-													<div className="hidden md:block text-xl text-transparent bg-clip-text bg-gradient-to-r from-gray-700 to-gray-500 inline-block">BETA. Writing front-ends for OpenAI APIs lfg</div>
+													<div className="hidden md:block text-xl text-transparent bg-clip-text bg-gradient-to-r from-gray-700 to-gray-500 inline-block">Chat about anything with the openai? lfg</div>
 													<div className="flex">
 														<div className={`items-center flex inline-flex ${this.props.store.profile.credits ? " bg-gray-100 text-gray-500" : " bg-red-100 text-red-500"} text-sm rounded-md px-3 py-1 font-medium my-2 mr-2`}>
 															<DatabaseIcon className="w-4 h-4 mr-2" />{this.props.store.profile.credits}&nbsp;<span className="hidden lg:block">credits remain</span>
