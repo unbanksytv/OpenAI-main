@@ -14,7 +14,7 @@ app.post('/example', async (req, res, next) => {
 	prompt += inputRaw
 
 	const gptResponse = await openai.complete({
-		engine: 'davinci',
+		engine: 'text-davinci-003',
 		prompt,
 		maxTokens: 150,
 		temperature: 0.7,

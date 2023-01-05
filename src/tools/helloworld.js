@@ -20,14 +20,14 @@ const obj = {
 
 	output: {
 		title: "Hello World",
-		desc: "Let's have a casual chat about the meaning of life...",
+		desc: "Let's have a casual chat...",
 		Icon: false,
 		color: "blue",
 	},
 
 	prompts: [{
 		title:"Let's get started",
-		desc: "Let's have a casual chat about the meaning of life...",
+		desc: "Let's have a casual chat",
 		// n: 1,
 		prompts: [{ 
 				title: "Content", 
