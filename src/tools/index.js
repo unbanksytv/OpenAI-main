@@ -4,7 +4,6 @@ import intro from './intro';
 import jobad from './jobad';
 import summarize from './summarize';
 import helloworld from './helloworld';
-import artguide from './artguide';
 
 
 const TOOLS = [
@@ -15,7 +14,6 @@ const TOOLS = [
 	jobad,
 	summarize,
 	helloworld,
-	artguide
 
 ]
 
