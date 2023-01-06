@@ -7,7 +7,7 @@ let app = express.Router()
 app.post('/travelagent', async (req, res, next) => {
 	try {
 		let { content } = req.body
-    
+
     let prompt = `I want you to act as a travel guide. I will write you my location and you will suggest a 5-star hotel and a gastronomic restaurant to visit near my location. In some cases, I will also give you the type of places I will visit. For example a surfing beach. You will also suggest me places of similar type that are close to my first location. My first suggestion request is: `
 
     let inputRaw = `"${content}"`
@@ -59,7 +59,7 @@ app.post('/travelagent', async (req, res, next) => {
 		console.log(err.data)
 		console.log(err.message)
 	}
-	
+
   })
 
 module.exports = app
